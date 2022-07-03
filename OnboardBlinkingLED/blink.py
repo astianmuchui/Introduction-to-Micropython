@@ -1,5 +1,5 @@
 from machine import Pin, Timer
-# Onboard LED
+# Onboard LED AT PIN 25
 led = Pin(25,Pin.OUT)
 LED_state = True
 tim = Timer()

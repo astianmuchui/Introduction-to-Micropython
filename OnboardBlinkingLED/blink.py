@@ -8,4 +8,5 @@ def tick(timer):
     global led, LED_state
     LED_state = not LED_state
     led.value(LED_state)
+# freq is changeable
 tim.init(freq=11,mode=Timer.PERIODIC,callback=tick)
